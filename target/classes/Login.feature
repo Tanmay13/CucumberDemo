@@ -22,5 +22,6 @@ Background: User access login page of Mercury Tours Application
              Then user is on Flight Finder page
              When user clicks on Sign off link
              Then User access Sign on page
+             Then stay on page
             
   

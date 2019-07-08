@@ -15,8 +15,10 @@ public class LoginSteps {
 
 	@When("^user enters application url as \"([^\"]*)\"$")
 	public void user_enters_application_url_as(String arg1) throws Throwable {
+		System.out.println("welcome  to git hub");
 	    // Write code here that turns the phrase above into concrete actions
 	    throw new PendingException();
+	    
 	}
 
 	@When("^user waits \"([^\"]*)\" seconds to Login page to be loaded$")
